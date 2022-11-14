@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import Navbar from '../components/Navbar';
 import me from '../pics/me.jpg';
 import email from '../pics/email.png';
