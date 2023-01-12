@@ -1,7 +1,7 @@
-const EmbeddedP = ({ fontSize, children }: { fontSize: number, children: any }) => {
+const EmbeddedP = ({ fontSize, style, children }: { fontSize: number, style?: object, children: any }) => {
     return (
         <div>
-            <p style={{ fontSize: fontSize }}>{children}</p>
+            <p style={{ fontSize: fontSize, ...style }}>{children}</p>
         </div>
     );
 }
